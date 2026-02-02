@@ -20,7 +20,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     // Set dark mode by default
-    document.documentElement.classList.add("dark");
+    document.documentElement.classList.add("light");
   }, []);
 
   useEffect(() => {
